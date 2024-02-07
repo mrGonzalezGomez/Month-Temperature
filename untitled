@@ -1,0 +1,41 @@
+#include<iostream>
+#include<string>
+using namespace std;
+ 
+int main()
+{
+    int meses[12] = {22,21,25,29,37,45,36,38,34,30,33,25};
+    int temp = 0;
+    const * char mes[1];
+    
+    cout <<  "Ingrese un mes ";
+    cin >> temp ;
+    
+    switch(temp)
+    {
+        case 1: cout << "Enero tuvo " << meses[temp-1]<<" grados.";
+        break;
+        case 2: mes[1] = "F" ;
+        break;
+        case 3: mes[1] = "M" ;
+        break;
+        case 4: mes[1] = "A" ;
+        break;
+        case 5: mes[1] = "M" ;
+        break;
+        case 6: mes[1] = "J" ;
+        break;
+        case 7: mes[1] = "J" ;
+        break;
+        case 8: mes[1] = "A" ;
+        break;
+        case 9: mes[1] = "S" ;
+        break;
+        case 10: mes[1] = "O" ;
+        break;
+        case 11: mes[1] = "N" ;
+        break;
+        case 12: mes[1] = "D" ;
+        break;
+    }
+}
