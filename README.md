@@ -1,7 +1,3 @@
-Certainly! Below is a README that explains the provided C++ code. This README is designed to be clear and informative for someone looking to understand what the code does, how it operates, and how to run it.
-
----
-
 # Monthly Temperature Analyzer
 
 ## Overview
@@ -44,11 +40,3 @@ El mes con mayor temperatura es J con 45 grados
 
 - The program currently uses a very basic form of user interaction and does not validate the input for correctness (e.g., non-numeric or out-of-range inputs).
 - The month abbreviations in the `mes` array are represented by the first letter of each month in Spanish (Enero, Febrero, etc.).
-
-## Enhancements
-
-Future enhancements could include input validation, dynamic data entry for temperatures, and support for different languages or more detailed month names.
-
----
-
-This README provides a comprehensive guide to understanding and using the provided C++ code for monthly temperature analysis.
